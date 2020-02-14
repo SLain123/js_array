@@ -13,3 +13,5 @@ const funSlice = (start, end, arr) => {
 }
 
 console.log(funSlice(1, 4, array));
+
+console.log(array.slice(1, 4,));
