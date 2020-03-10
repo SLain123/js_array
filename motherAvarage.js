@@ -60,15 +60,6 @@ let ancestry = [
 
 let test = {"name": "Carolus Haverbeke", "sex": "m", "born": 1832, "died": 1905, "father": "Carel Haverbeke", "mother": "Maria van Brussel"};
 
-const female = arr => {
-    let result = arr.filter(element => {
-        return element.sex == 'f';
-    });
-    
-    return result;
-}
-
-
 const motherOfPerson = obj => {
     let result;
     for (element in obj) {
