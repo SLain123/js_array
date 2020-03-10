@@ -4,13 +4,10 @@
 var arrays = [[1, 2, 3], [4, 5], [6]];
 
 const rollUp = arr => {
-    let result = arr.reduce(function(arr1, arr2) {
-        return arr1.concat(arr2);
-        
-    });
-    return result;
+    return arr.reduce((arr1, arr2) => 
+        arr1.concat(arr2), []);
+    
 }
-
 
 console.log(rollUp(arrays));
 
